@@ -1,0 +1,16 @@
+
+<nav>
+    <div class="container">
+        <div class="content">
+            <h2 class="logo" >Kido Kart <i class="fa-solid fa-tag"></i></h2>
+            <ul>
+                <li class="mx-2 " routerLink="/products"> Products </li>
+                <li class="mx-2 d-flex no-wrap align-items-center justify-content-center" routerLink="/cart" >Cart
+                    <i class="fa-solid fa-cart-plus position-relative">
+                        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-11">{{cartView.length > 9 ? '9 +' : cartView.length }}</span>
+                    </i>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

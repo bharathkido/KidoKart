@@ -1,0 +1,30 @@
+
+nav {
+    background: #268ee9;
+    color: #FFF;
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            margin: 0;
+            li  {
+                cursor: pointer;
+                font-size: 22px;
+                color: #FFF;
+                text-decoration: none;
+              
+            }
+        }
+    }
+    
+
+}
+.fs-11{
+    font-size: 11px !important;
+    font-weight: 500px !important;
+}
