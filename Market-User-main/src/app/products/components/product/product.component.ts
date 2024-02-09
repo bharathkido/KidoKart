@@ -11,7 +11,7 @@ export class ProductComponent implements OnInit {
 @Input() data:Product
   @Output() item = new EventEmitter();
   addButton:boolean = false;
-  amount:number = 0
+  amount:number = 1
   constructor(public service: ProductsService) { }
 
   ngOnInit(): void {
